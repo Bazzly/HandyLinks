@@ -1,11 +1,17 @@
-# HandyLinks
+## HandyLinks
 HandyLinks #HL is an archive of helpful links.
 
-## Build a complete off chain fullstack web3 app using Laravel Part-1
+## Website development
+# Build a complete off chain fullstack web3 app using Laravel Part-1
 
 [BuildWeb3WithLaravel](https://celo.academy/t/build-a-complete-off-chain-fullstack-web3-app-using-laravel-part-1/30)
 
-## Top Websites to Find Remote Jobs for #programmers:
+# How to Use the CSS Box Model and Style SVG Images
+
+[how-to-use-css-box-model-and-style-svg-images](https://www.freecodecamp.org/news/how-to-use-css-box-model-and-style-svg-images/)
+
+## Remote jobs
+# Top Websites to Find Remote Jobs for programmers:
 
 1. [weworkremotely.com](https://weworkremotely.com)
 2. [virtualvocations.com](https://virtualvocations.com)
@@ -19,3 +25,15 @@ HandyLinks #HL is an archive of helpful links.
 10. [angel.co](https://angel.co)
 11. [toggl.com](https://toggl.com)
 12. [remote.co](https://remote.co)
+
+
+## Crypto & NFTs
+# How to launch an NFT collection: 9 steps for success
+
+[successful-nft-drop](https://queue-it.com/blog/successful-nft-drop/)
+
+# A to Z: NFT Glossary
+
+[nft-glossary](https://www.finder.com/nft-glossary)
+
+
