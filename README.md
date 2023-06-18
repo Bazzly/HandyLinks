@@ -6,6 +6,10 @@ HandyLinks #HL is an archive of helpful links.
 
 [BuildWeb3WithLaravel](https://celo.academy/t/build-a-complete-off-chain-fullstack-web3-app-using-laravel-part-1/30)
 
+## laravel import large csv jobs queues
+
+[large-csv-jobs-queues](https://laraveldaily.com/post/laravel-import-very-large-csv-jobs-queues)
+
 ## How to Use the CSS Box Model and Style SVG Images
 
 [how-to-use-css-box-model-and-style-svg-images](https://www.freecodecamp.org/news/how-to-use-css-box-model-and-style-svg-images/)
@@ -41,4 +45,10 @@ HandyLinks #HL is an archive of helpful links.
 
 [nft-glossary](https://www.finder.com/nft-glossary)
 
+
+
+# Artificial inteligent (AI)
+## Find cool artificial intelligence (AI) tools.
+
+[AI Tools Club](https://www.finder.com/nft-glossary)
 
