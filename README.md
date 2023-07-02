@@ -6,6 +6,13 @@ HandyLinks #HL is an archive of helpful links.
 
 [BuildWeb3WithLaravel](https://celo.academy/t/build-a-complete-off-chain-fullstack-web3-app-using-laravel-part-1/30)
 
+## How to build a Laravel REST API with Test-Driven Development
+
+[laravel-rest-api](https://www.freecodecamp.org/news/how-to-build-a-laravel-rest-api-with-test-driven-development-c4bb6417db3c/)
+
+## The most popular component library component library for Tailwind CSS
+
+[Tailwind-CSS-component](https://daisyui.com/)
 ## laravel import large csv jobs queues
 
 [large-csv-jobs-queues](https://laraveldaily.com/post/laravel-import-very-large-csv-jobs-queues)
@@ -52,3 +59,23 @@ HandyLinks #HL is an archive of helpful links.
 
 [AI Tools Club](https://www.finder.com/nft-glossary)
 
+# Tutorial YouTube video
+## Test Driven Laravel - e02 - Deleting a Record, Asserting Instance Of & Carbon Pars
+
+[Test-Driven-Laravel](https://youtu.be/78EXSROAHWc)
+
+## Introduction to APIs | Laravel API Course | Learn Laravel API | Laravel API Tutorial
+
+[Introduction-to-Laravel-API ](https://youtu.be/D29sUCaUJg0)
+
+## Laravel Package Development - e01 - Introduction
+
+[Laravel-Package-Development](https://youtu.be/ivrc1ZKFgHI)
+
+## Notion solidifying documentation for your startup
+
+[Notion-solidifying-documentation](https://youtu.be/U2QBFs0ACQ8)
+
+## Docker Tutorial for Beginners
+
+[Docker-Beginners-tutorial-by-mosh](https://youtu.be/pTFZFxd4hOI)
