@@ -79,3 +79,119 @@ HandyLinks #HL is an archive of helpful links.
 ## Docker Tutorial for Beginners
 
 [Docker-Beginners-tutorial-by-mosh](https://youtu.be/pTFZFxd4hOI)
+
+# CI/CD For laravel share hosting
+
+## you can deploy laravel app directly to share hosting 
+## save the code bellow in .scripts folder as deploy.sh in your public_html folder
+
+#!/bin/bash
+set -e
+
+echo "Deployment started ..."
+
+
+# copy .env
+(cp .env.example .env) || true
+# if already is in maintenance mode
+(php artisan down) || true
+
+changed=0
+git remote update && git status -uno | grep -q 'Your branch is behind' && changed=1
+if [ $changed = 1 ]; then
+# fetch the latest version of the app
+git fetch git  (ssh://git@ssh.github.com:443/bazzlylinks/geotech-web.git)
+# Pull the latest version of the app
+git pull ssh://git@ssh.github.com:443/bazzlylinks/geotech-web.git
+php artisan migrate --force
+php artisan optimize:clear
+php artisan up
+    echo "Updated successfully";
+else
+# Exit maintenance mode
+php artisan up
+    echo "Up-to-date"
+fi
+
+echo "Deployment finished!"
+
+
+## After this save the below code in your .github/workflows/ folder as laravel.yml
+
+name: 🚀 Deploy on push main
+
+on: 
+  push:
+    branches:    
+      - main 
+    
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+      - name: Copy .env
+        run: cp .env.example .env
+      - name: Install composer Dependencies
+        run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+      - name: Install node dependencies
+        run: npm ci
+      - name: Directory Permissions
+        run: chmod 755 -R storage bootstrap/cache
+       
+      - name: 📂 Deploy to server via ssh
+        uses: appleboy/ssh-action@v0.1.7
+        with:
+          host: "hostIp"
+          username: 'HostUsername"
+          password: "hostPass"
+          port: "hostPort"
+          script: "cd /home/u665214148/public_html && sh ./.scripts/deploy.sh"
+
+
+## Finally save the code bellow as .htacces file in your laravel project directory
+
+<IfModule mod_rewrite.c>
+
+<IfModule mod_negotiation.c>
+
+Options -MultiViews -Indexes
+
+</IfModule>
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^public
+
+RewriteRule ^(.*)$ public/$1 [L]
+
+</IfModule>
+
+# Handle Authorization Header
+
+RewriteCond %{HTTP:Authorization} .
+
+RewriteRule .* — [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+# Redirect Trailing Slashes If Not A Folder…
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_URI} (.+)/$
+
+RewriteRule ^ %1 [L,R=301]
+
+# Send Requests To Front Controller…
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^ index.php [L]
+
+
+</IfModule>
