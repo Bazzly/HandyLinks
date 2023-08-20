@@ -3,12 +3,21 @@ HandyLinks #HL is an archive of helpful links.
 
 # Website development
 
-## 5 Places To Find Web Design Inspiration
-1. [Awwwards](https://www.awwwards.com/)
-2. [Dribbble](https://dribbble.com/)
-3. [Behance](https://www.behance.net/)
-4. [siteInspire](https://www.siteinspire.com/)
-5. [CSS Nectar](https://cssnectar.com/)
+## Places To Find Web Design Inspiration
+[Awwwards](https://www.awwwards.com/)
+[Dribbble](https://dribbble.com/)
+[Behance](https://www.behance.net/)
+[siteInspire](https://www.siteinspire.com/)
+[CSS Nectar](https://cssnectar.com/)
+[UI/UX Components design inspitation](https://calltoinspiration.com)
+
+## Web tools for developers
+[10015 All Online Tools in “One Box”](https://10015.io)
+
+
+## Svg repo
+
+[Svg repo](https://www.svgrepo.com/svg/24907/drone?edit=true)
 ## Build a complete off chain fullstack web3 app using Laravel Part-1
 
 [BuildWeb3WithLaravel](https://celo.academy/t/build-a-complete-off-chain-fullstack-web3-app-using-laravel-part-1/30)
