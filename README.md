@@ -1,5 +1,8 @@
 # HandyLinks
 HandyLinks #HL is an archive of helpful links.
+# Git and backend tools 
+## Impotant GIT 
+1. [Sven Luijten How I git from A to Z](https://svenluijten.com/posts/how-i-git-from-a-to-z)
 
 # Website development
 
@@ -10,9 +13,15 @@ HandyLinks #HL is an archive of helpful links.
 4. [siteInspire](https://www.siteinspire.com/)
 5. [CSS Nectar](https://cssnectar.com/)
 6. [UI/UX Components design inspitation](https://calltoinspiration.com)
+6. [UI ball Loaders](https://Uiball.com)
+
 
 ## Web tools for developers
-[10015 All Online Tools in “One Box”](https://10015.io)
+1. [10015 All Online Tools in “One Box”](https://10015.io)
+2. [](https://css-tricks.com/creating-an-editable-textarea-that-supports-syntax-highlighted-code/)
+3. [3-column-layouts](https://matthewjamestaylor.com/3-column-layouts)
+
+
 
 
 ## Svg repo
@@ -41,6 +50,10 @@ HandyLinks #HL is an archive of helpful links.
 
 [Color Contrast Checker](https://coolors.co/contrast-checker/acebd0-000000)
 
+
+# Screenshots
+
+![Css Selector types](/images/selectors.jpeg)
 
 # Remote jobs
 ## Top Websites to Find Remote Jobs for programmers:
