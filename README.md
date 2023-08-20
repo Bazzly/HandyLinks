@@ -4,12 +4,12 @@ HandyLinks #HL is an archive of helpful links.
 # Website development
 
 ## Places To Find Web Design Inspiration
-[Awwwards](https://www.awwwards.com/)
-[Dribbble](https://dribbble.com/)
-[Behance](https://www.behance.net/)
-[siteInspire](https://www.siteinspire.com/)
-[CSS Nectar](https://cssnectar.com/)
-[UI/UX Components design inspitation](https://calltoinspiration.com)
+1. [Awwwards](https://www.awwwards.com/)
+2. [Dribbble](https://dribbble.com/)
+3. [Behance](https://www.behance.net/)
+4. [siteInspire](https://www.siteinspire.com/)
+5. [CSS Nectar](https://cssnectar.com/)
+6. [UI/UX Components design inspitation](https://calltoinspiration.com)
 
 ## Web tools for developers
 [10015 All Online Tools in “One Box”](https://10015.io)
